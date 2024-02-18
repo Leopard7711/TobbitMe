@@ -1,0 +1,29 @@
+
+
+// 이제 사용자 지정 변수를 설정합니다.
+$white: #ffffff;
+
+// Bootstrap의 기본 테마 색상을 오버라이드합니다.
+// $theme-colors: (
+//     "light": #eaddd1,
+//     "dark": #17253f,
+//     "primary": #60403d,
+//     "secondary": #d1672e,
+//     "info": #c6c222,
+//     "success": #60ac0d,
+//     "warning": #ffc271,
+//     "danger": #f50566,
+// );
+
+$theme-colors: (
+    "light":      #e6dbd3,
+    "dark":       #090305,
+    "primary":    #3e726b,
+    "secondary":  #e82264,
+    "info":       #d7a0af,
+    "success":    #19b34a,
+    "warning":    #f3ca17,
+    "danger":     #f90b3b,
+);
+// Bootstrap의 나머지 필요한 파일들을 임포트합니다.
+@import "../../node_modules/bootstrap/scss/bootstrap";

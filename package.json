@@ -173,7 +173,9 @@
     "weak-lru-cache": "^1.2.2",
     "yallist": "^4.0.0"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "tailwindcss": "^3.4.1"
+  },
   "keywords": [],
   "description": ""
 }
